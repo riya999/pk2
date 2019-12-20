@@ -1,0 +1,6 @@
+sudo su
+vi /etc/hosts
+192.168.33.10 chef.mycompany.com
+vi /etc/sysconfig/network
+HOSTNAME=chef.mycompany.com
+reboot
